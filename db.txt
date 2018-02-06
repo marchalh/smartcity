@@ -1,0 +1,26 @@
+insert into plante_type values('tomate', '25', '100', '5', '9', '20', '100', '5', '40', null, 'avril', 'juin', 'aout', 'septembre', '200');
+insert into plante_type values('basilic', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('chou_fleur', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('pomme_de_terre', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('oignon', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('poivron', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('petits_pois', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('piment', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('carotte', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('champignon', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('salade', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+insert into plante_type values('aubergine', '25', '100', '5', '9', '20', '100', '5', '40', null, 'mars', 'juin', 'aout', 'septembre', '100');
+
+
+insert into emplacement values ('e06', '50.469', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e07', '50.470', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e08', '50.469', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e09', '50.469', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e10', '50.470', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e11', '50.469', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e12', '50.469', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e13', '50.470', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e14', '50.469', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e15', '50.469', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e16', '50.470', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');
+insert into emplacement values ('e17', '50.469', '4.85721', '192.168.137.104', '1', '1', 'a50LoPHk4jaScGN2Optczjqo6byjoNgh');

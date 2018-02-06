@@ -1,0 +1,39 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Frigo - RFID
+PUT		/frigo/scan					controllers.Frigo.scan
+
+# Frigo - Aliments
+GET		/frigo/aliments				controllers.Frigo.aliments
+
+# Frigo - Labels
+POST	/frigo/aliments				controllers.Frigo.setLabel
+
+# Potager - Meteo
+GET     /potager/meteo/demain/:id       controllers.MeteoController.meteoDemain(id:String)
+
+# Potager - Login
+GET     /potager/newid                  controllers.Potager.newID
+POST	/potager/login					controllers.Potager.login
+
+# Potager - Plantations
+GET		/potager/plantation				controllers.Potager.plantations
+
+# Potager - Capteurs
+GET     /potager/capteur/temperature/:id        controllers.Capteurs.temperatureNow(id:String)
+GET     /potager/capteur/humidite/:id           controllers.Capteurs.humiditeNow(id:String)
+GET     /potager/capteur/luminosite/:id         controllers.Capteurs.luminositeNow(id:String)
+
+PUT     /potager/capteur/temperature/:id        controllers.Capteurs.setTemperature(id:String)
+PUT     /potager/capteur/luminosite/:id         controllers.Capteurs.setLuminosite(id:String)
+PUT     /potager/capteur/humidite/:id           controllers.Capteurs.setHumidite(id:String)
+
+# Potager - Historiques
+GET		/potager/capteur/historique/ensoleillement/:id		controllers.Historique.historiqueLuminosite(id:String)
+GET		/potager/capteur/historique/temperature/:id			controllers.Historique.historiqueTemperature(id:String)
+GET		/potager/capteur/historique/humidite/:id			controllers.Historique.historiqueHumidite(id:String)
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

@@ -1,0 +1,7 @@
+http://forefront.io/a/beginners-guide-to-arduino/
+https://www.hackster.io/makers-ns/arduino-mkr1000-dht-artik-cloud-78cf18
+https://www.arduino.cc/en/Guide/MKR1000#toc2
+http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/
+http://www.circuitbasics.com/wp-content/uploads/2015/10/Arduino-DHT11-Tutorial-4-Pin-DHT11-Wiring-Diagram.png
+
+https://tkkrlab.nl/wiki/Arduino_KY-018_Photo_resistor_module

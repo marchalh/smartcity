@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "321436472878",
+    "firebase_url": "https://server-43c9b.firebaseio.com",
+    "project_id": "server-43c9b",
+    "storage_bucket": "server-43c9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321436472878:android:2e6af013640418ca",
+        "android_client_info": {
+          "package_name": "be.unamur.greencity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321436472878-dke88kue3idfg20eqh3f26bv5sulmjdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3dzw3-SW5YCY3HCMg09kl-MoaPxpEHeo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
